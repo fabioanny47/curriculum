@@ -44,7 +44,7 @@ text-align: center;
 
 .main {
 
-  grid-area: main;
+grid-area: main;
 
 
 }
@@ -57,18 +57,16 @@ text-align: center;
   "nav"
   "header"
   "main"
- 
-
-}
+ }
 
 
 @media (min-width:600px) {
   .grid {
-  grid-template-columns: 30% 70%;
+ grid-template-columns: 50% 50%;
   grid-template-rows: 80px 900px;  
   grid-template-areas: 
-  "header  header"
-  "nav main"
- 
- }
+ "header  header"
+  "nav main" 
+}
+
 }
