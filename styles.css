@@ -42,7 +42,7 @@ text-align: center;
   
   grid-area: navbar;
  background-color: darkblue;
- 
+background-image: url(img/navf.png);
 
 }
 
@@ -74,10 +74,10 @@ background-color: lightgreen;
   grid-template: 
   
   
-  "navbar" 300px 
-  "main" auto
-  "sidebar" 100px
-  "footer" 100px;
+  "navbar" 400px 
+  "main" 400px
+  "sidebar" 80px
+  "footer" 80px;
   
   
  }
