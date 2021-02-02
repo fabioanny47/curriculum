@@ -33,40 +33,65 @@ text-align: center;
 .header {
 
   grid-area: header;
+  background-color: lightskyblue;
+  margin-left: 20.5%;
 }
 
-.navbar {
+.nav {
 
+  
   grid-area: navbar;
-
+ background-color: darkblue;
+ top: 0%;
 
 }
 
 .main {
 
 grid-area: main;
+background-color: darkgray;
+
+} 
 
 
+.sidebar {
+
+grid-area: sidebar;
+background-color: lightcoral;
 }
+
+.footer{
+
+grid-area: footer;
+background-color: lightgreen;
+}
+
 
 .grid{
 
   display: grid;
   gap: 10px;
-  grid-template-areas: 
-  "nav"
-  "header"
-  "main"
+  grid-template: 
+  
+  "header" 100px
+  "navbar" 50px 
+  "main" auto
+  "sidebar" 100px
+  "footer" 100px;
+  
+  
  }
 
 
 @media (min-width:600px) {
   .grid {
- grid-template-columns: 50% 50%;
-  grid-template-rows: 80px 900px;  
+ grid-template-columns: 20% 80% ;
+  grid-template-rows: 80px 790px 40px 40px ;  
   grid-template-areas: 
  "header  header"
-  "nav main" 
+ "navbar    main" 
+ "sidebar sidebar"
+ "footer  footer"
 }
 
 }
