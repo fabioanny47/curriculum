@@ -49,16 +49,10 @@ background-image: url(img/navf.png);
 .main {
 
 grid-area: main;
-background-color: darkgray;
+background-color:white;
 
 } 
 
-
-.sidebar {
-
-grid-area: sidebar;
-background-color: lightcoral;
-}
 
 .footer{
 
@@ -76,7 +70,7 @@ background-color: lightgreen;
   
   "navbar" 400px 
   "main" 400px
-  "sidebar" 80px
+ 
   "footer" 80px;
   
   
@@ -90,7 +84,7 @@ background-color: lightgreen;
   grid-template-areas: 
  
  "navbar    main" 
- "sidebar sidebar"
+ 
  "footer  footer"
 }
 
