@@ -10,8 +10,50 @@
 html{
 
   height: 100%;
+  padding: 0px;
+ 
+}
+
+img{
+
+width: 70%;
+margin:auto;
+display: block;
+border-radius: 50%;
+padding: 8px;
+border: 3px solid mediumvioletred;
 
 }
+
+#name{
+
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 40px;
+font-style: italic;
+color:white;
+
+}
+
+
+#name{
+
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  color:white;
+  
+  }
+
+
+  body nav div{
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    color:mediumvioletred ;
+
+
+  }
 
 
 
@@ -68,7 +110,7 @@ background-color: lightgreen;
   grid-template: 
   
   
-  "navbar" 600px 
+  "navbar" 780px 
   "main" 400px
   "footer" 80px;
   
@@ -78,7 +120,7 @@ background-color: lightgreen;
 
  .date{
 
-  margin-top: 250px;
+  margin-top: 60px;
   
    }
 
@@ -87,7 +129,7 @@ background-color: lightgreen;
 @media (min-width:500px) {
   .grid {
  grid-template-columns: 50% 50% ;
-  grid-template-rows: 570px 40px  ;  
+  grid-template-rows: 870px 40px  ;  
   grid-template-areas: 
  
  "navbar    main" 
@@ -97,7 +139,7 @@ background-color: lightgreen;
  
 .date{
 
-margin-top: 230px;
+margin-top: 130px;
 
 }
 
@@ -110,7 +152,7 @@ margin-top: 230px;
 @media (min-width:900px) {
   .grid {
  grid-template-columns: 20% 80% ;
-  grid-template-rows: 980px 40px  ;  
+  grid-template-rows: 930px 40px  ;  
   grid-template-areas: 
  
  "navbar    main" 
@@ -120,7 +162,7 @@ margin-top: 230px;
 
 .date{
 
-  margin-top: 400px;
+  margin-top: 130px;
 
 
 
