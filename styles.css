@@ -138,19 +138,26 @@ margin-top: 230px;
 
 .descript {
 
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding-top: 10px;
+  color:ivory
+  
   
   }
   
   
   .subtitle {
-  
+   
+
+  margin-right: 40%;
    text-align:left;
    font-size: 30px;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    padding: 5px;
    background-color:mediumvioletred;
    font-style: italic;
+   color:ivory
    
   }
  
