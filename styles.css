@@ -110,7 +110,7 @@ margin-top: 230px;
 @media (min-width:900px) {
   .grid {
  grid-template-columns: 20% 80% ;
-  grid-template-rows: 569px 40px  ;  
+  grid-template-rows: 1070px 40px  ;  
   grid-template-areas: 
  
  "navbar    main" 
@@ -138,10 +138,13 @@ margin-top: 230px;
 
 .descript {
 
+
+  text-justify:newspaper;
   font-style: italic;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding-top: 10px;
   color:ivory
+  
   
   
   }
