@@ -110,7 +110,7 @@ margin-top: 230px;
 @media (min-width:900px) {
   .grid {
  grid-template-columns: 20% 80% ;
-  grid-template-rows: 1070px 40px  ;  
+  grid-template-rows: 980px 40px  ;  
   grid-template-areas: 
  
  "navbar    main" 
@@ -120,7 +120,7 @@ margin-top: 230px;
 
 .date{
 
-  margin-top: 170px;
+  margin-top: 400px;
 
 
 
