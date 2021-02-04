@@ -154,10 +154,10 @@ background-color: lightgreen;
 
 
 
-@media (min-width:500px) {
+@media (min-width:600px) {
   .grid {
  grid-template-columns: 50% 50% ;
-  grid-template-rows: 800px 40px  ;  
+  grid-template-rows: 900px 40px  ;  
   grid-template-areas: 
  
  "navbar    main" 
@@ -180,7 +180,7 @@ margin-top: 130px;
 @media (min-width:900px) {
   .grid {
  grid-template-columns: 20% 80% ;
-  grid-template-rows: 850px 40px  ;  
+  grid-template-rows: 950px 40px  ;  
   grid-template-areas: 
  
  "navbar    main" 
